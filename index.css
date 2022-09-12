@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator{
+ display:flex;
+ justify-content: space-evenly;
+ margin:10px;
+ max-width: 200vh;
+ width:100%;
+ margin-top: 20px;
+ margin-bottom: 60px;
+}
+.heading{
+ width:200px;
+
+}
+
+.nav-list{
+    max-width :70vh;
+    width:95%;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+.text-header{
+    margin-bottom: 10px;
+    text-align: center;   
+}
+
+.text-p{
+    background-color: black;
+    color: aliceblue;
+    width: fit-content;
+    margin-left:50%;
+}
+.image-food{
+    text-align: center;
+}
+
+.image-photo{
+    margin-top: 100px;
+    width: 50%;
+    margin-bottom: 50px;
+
+}
+
+.dessert-photo{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #FFAE6D;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.dessert-line{
+    width:400px;
+    text-align: center;
+    padding-top:6%;
+}
+
+.journey-photo{
+    width:350px
+}
+
+.para{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    margin-left: 180px;
+}
+
+.text-id{
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.text-id h2{
+    margin-bottom: 20px;
+}
+
+.text-id p{
+    background-color: black;
+     width: 80px;
+     height:25px;
+     text-align: center;
+     margin-left: 50%;
+     color: aliceblue;
+     
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #CFD2CF;
+    background-size: cover;
+    height:90px;
+}
